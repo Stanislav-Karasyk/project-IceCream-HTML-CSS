@@ -1,0 +1,70 @@
+<header class="header">
+  <div class="header__container container">
+    <nav class="header__nav">
+      <a href="" class="header__link">
+        <img class="header__img" src="./images/header/logo.png" alt="logo" />
+      </a>
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="./index.html" class="header__item-link current"> Home </a>
+        </li>
+        <li class="header__item">
+          <a href="#about" class="header__item-link"> About us </a>
+        </li>
+        <li class="header__item">
+          <a href="#made" class="header__item-link"> How it’s made? </a>
+        </li>
+        <li class="header__item">
+          <a href="#products" class="header__item-link"> Our products </a>
+        </li>
+        <li class="header__item">
+          <a href="#contacts" class="header__item-link"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__btns-tablet">
+      <button data-modal-open type="button" class="mobile-btn is-hidden">
+        <svg class="mobile-btn-svg">
+          <use
+            class="svg-burger"
+            href="./images/svg/sprite.svg#icon-Burger"
+            aria-label="переключатель мобильного меню"
+          ></use>
+        </svg>
+      </button>
+      <button type="button" class="header__btn-buy general-btn">
+        <span>Buy now</span><span class="header__btn-span">></span>
+      </button>
+    </div>
+    <div data-modal class="mobile">
+      <button data-modal-close class="mobile-btn-close" type="button">
+        <svg class="mobile-svg">
+          <use
+            class="svg-close"
+            href="./images/svg/sprite.svg#icon-close"
+          ></use>
+        </svg>
+      </button>
+      <button type="button" class="mobile-btn-buy general-btn">
+        Buy now <span class="mobile-btn-span">></span>
+      </button>
+      <ul class="mobile-list is-hidden">
+        <li class="mobile-item">
+          <a class="mobile-link current" href="./index.html">Home</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-link" href="#about">About us</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-link" href="#made">How it’s made?</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-link" href="#products">Our products</a>
+        </li>
+        <li class="mobile-item">
+          <a class="mobile-link" href="#contacts">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
